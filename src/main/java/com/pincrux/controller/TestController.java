@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController{
 	@RequestMapping("/index")
 	public String welcome() {
+		System.out.println("cccccccccccccccccccccccc");
 		return "index"; 
 	}
 
